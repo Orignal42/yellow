@@ -1,20 +1,201 @@
-#header{
-    background-color: transparent;
-    background-image:url("/images/bkg-hero-header.jpg");
-    background-size: auto;
-    background-repeat: no-repeat;
-    width: auto;
-    height: 100rem;
-    color: white;
-    
+#header {
+  background-color: transparent;
+  background-image: url("/images/bkg-hero-header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50rem;
+  color: white;
 }
 
-#header img{
-    width: 10em;
-    height: auto;
+#header img {
+  width: 10em;
+  height: auto;
+  margin: 2rem;
 }
-.navbar{
-    align-items: flex-end;
-    color: white;
-    background-color: transparent;
+
+.navigateur {
+  display: flex;
+  flex-direction: row nowrap;
 }
+
+.navbar {
+  margin-left: 5%;
+  background-color: transparent !important;
+}
+
+.row {
+  padding: 2%;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+  margin-top: 15%;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.boutton {
+  display: flex;
+  justify-content: center;
+}
+
+button[name=tranparent] {
+  background-color: transparent;
+  margin-right: 1rem;
+  color: white;
+  border: 0.2rem solid white;
+}
+
+button[name=yellow] {
+  background-color: goldenrod;
+  margin-right: 1rem;
+  color: white;
+  border: 0;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h3 {
+  color: yellow;
+  font-size: 100%;
+}
+
+h4 {
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+p {
+  text-align: center;
+}
+
+.projet {
+  background: repeating-linear-gradient(-45deg, #dbdada, #dbdada 1px, #e7e7e7 1px, #e7e7e7 3px);
+  height: 20vh;
+  text-align: center;
+  margin-top: 10rem;
+  padding: 10rem;
+}
+
+#photos {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 0 !important;
+  padding: 0 !important;
+}
+
+#photos img {
+  width: 25%;
+  height: 30%;
+  padding: 0;
+  margin: 0;
+}
+
+#about {
+  margin-top: 5rem;
+}
+#about .about {
+  margin: 5rem;
+}
+
+#testimonials {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  margin-top: 0;
+  background-image: url("/images/bkg-testimonial.jpg");
+  background-size: cover;
+}
+
+#testimonials img {
+  width: 15%;
+  height: 15%;
+  border-radius: 100%;
+  margin: 5%;
+}
+
+#testimonials p {
+  background-color: purple;
+  height: 10rem;
+  margin: 2rem;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#carre {
+  z-index: 0;
+  margin: -10rem;
+  height: 10rem;
+  width: 10rem;
+  background: purple;
+  -ms-transform: rotate(45deg);
+  /* Internet Explorer */
+  -moz-transform: rotate(45deg);
+  /* Firefox */
+  -webkit-transform: rotate(45deg);
+  /* Safari et Chrome */
+  -o-transform: rotate(45deg);
+  /* Opera */
+}
+
+#services {
+  margin: 2rem;
+}
+
+#news {
+  background-color: darkslategrey;
+}
+
+.card {
+  width: 30%;
+  height: auto;
+  margin: 2%;
+}
+
+#news button {
+  background-color: yellow;
+}
+
+#entreprise {
+  background-image: url("/images/bkg-counter.jpg");
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact h1 {
+  margin: 1%;
+}
+
+.titre {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 1rem;
+}
+
+.cont {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  margin: 10rem;
+}
+
+/*# sourceMappingURL=main.css.map */
